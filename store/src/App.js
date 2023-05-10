@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarComponent from './components/Navbar';
@@ -16,6 +16,7 @@ function App() {
     <CartProvider>
       <Container>
         <NavbarComponent></NavbarComponent>
+        
         <BrowserRouter>
           <Routes>
             <Route index element={<Store />} />

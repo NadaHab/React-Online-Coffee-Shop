@@ -2,6 +2,7 @@ import {Button, Container, Navbar, Modal} from 'react-bootstrap';
 import { useState, useContext } from 'react';
 import { CartContext } from "../CartContext";
 import CartProduct from './CartProduct';
+//import "./Navbar.css";
 
 function NavbarComponent() {
     const cart = useContext(CartContext);
@@ -30,7 +31,7 @@ function NavbarComponent() {
 
     return (
         <>
-            <Navbar expand="sm">
+            <Navbar expand="sm" >
                 <Navbar.Brand href="/">Online Coffee Shop</Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
